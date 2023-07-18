@@ -116,7 +116,7 @@ config:
   gatewayUrl: "http://safe-client-gateway.safe.svc.cluster.local"
 
   ## @param config.isProduction
-  isProduction: false
+  isProduction: true
 
   ## @param config.secretReferenceKey Reference to an existing secret containing the following entries: SECRET_KEY, CGW_FLUSH_TOKEN
   secretReferenceKey: ""
